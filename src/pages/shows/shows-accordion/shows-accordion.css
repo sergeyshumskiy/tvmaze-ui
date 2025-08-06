@@ -1,0 +1,25 @@
+.showGenre {
+  padding: 1.625rem;
+  border-radius: .7rem;
+  background-color: #d1dcd9;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.showGenre:hover {
+  background-color: #c6ddd7;
+}
+
+.showGenreItem {
+  padding: .625rem;
+  border-radius: .7rem;
+  cursor: pointer;
+}
+
+.showGenreItem:hover {
+  background-color: #aad6cc;
+}
+
+.showDescription {
+  padding: .5rem;
+}

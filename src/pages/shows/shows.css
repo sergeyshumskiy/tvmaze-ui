@@ -1,0 +1,35 @@
+.ReactCollapse--collapse {
+  transition: height 200ms;
+}
+
+.searchControls {
+  display: flex;
+}
+
+.searchControls h1{
+  margin: 0;
+}
+
+.showSearch {
+  margin-left: 2rem;
+  width: 12rem;
+  outline: none;
+  padding: 0 0.625rem;
+  border:  2px solid #d1dcd9;
+  border-radius: .7rem;
+  color: inherit;
+}
+
+.showsContainer {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.showsContainer .spinner{
+  margin: auto;
+}
+
+.showsError{
+  color: #ea0606;
+  padding: .5rem 0;
+}
