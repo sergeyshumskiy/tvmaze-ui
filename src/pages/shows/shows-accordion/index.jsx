@@ -21,9 +21,9 @@ function ShowsAccordion({ showsGroupedByGenre }) {
   };
 
   return (
-    <>
+    <ul className='genresList'>
       {Object.entries(showsGroupedByGenre).map(([genre, shows]) => (
-        <div key={genre} className='showGenre'  onClick={() => toggleGenre(genre)}>
+        <li key={genre} className='showGenre'  onClick={() => toggleGenre(genre)}>
           {genre}:
           <Collapse isOpened={openGenre === genre}>
             <ul>
@@ -46,9 +46,9 @@ function ShowsAccordion({ showsGroupedByGenre }) {
             ))}
           </ul>
             </Collapse>
-        </div>
+        </li>
       ))}
-    </>
+    </ul>
   );
 }
 
